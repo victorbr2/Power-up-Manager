@@ -3,7 +3,8 @@
 
 #include "j1Module.h"
 
-//#define NUM_KEYS 352
+
+#define MAX_KEYS 300
 #define NUM_MOUSE_BUTTONS 5
 //#define LAST_KEYS_PRESSED_BUFFER 50
 
@@ -67,6 +68,7 @@ public:
 	// Get mouse / axis position
 	void GetMousePosition(int &x, int &y);
 	void GetMouseMotion(int& x, int& y);
+
 
 private:
 	bool		windowEvents[WE_COUNT];

@@ -29,6 +29,7 @@ j1App::j1App(int argc, char* args[]) : argc(argc), args(args)
 	map = new j1Map();
 	play = new Player();
 
+
 	// Ordered for awake / Start / Update
 	// Reverse order of CleanUp
 	AddModule(input);

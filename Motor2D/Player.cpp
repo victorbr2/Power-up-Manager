@@ -62,7 +62,6 @@ bool Player::Start()
 	LOG("Loading player");
 	
 	player_text = App->tex->Load("textures/Character.png");
-	
 	health = 1;
 	return true;
 }

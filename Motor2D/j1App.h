@@ -15,6 +15,7 @@ class j1Scene;
 class j1Map;
 class Player;
 
+
 class j1App
 {
 public:
@@ -85,6 +86,7 @@ public:
 	j1Scene*			scene;
 	j1Map*				map;
 	Player*				play;
+
 
 private:
 
