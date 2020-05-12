@@ -4,6 +4,7 @@
 #include "j1Input.h"
 #include "j1Textures.h"
 #include "Player.h"
+#include "ModuleCollision.h"
 #include "j1Audio.h"
 #include "j1Render.h"
 #include "j1Window.h"
@@ -36,7 +37,7 @@ bool j1Scene::Start()
 		App->render->camera.x = 0;
 		App->render->camera.y = 0;
 		App->play->position.x = 32;
-		App->play->position.y = 200;
+		App->play->position.y = 192;
 	return true;
 }
 
@@ -55,6 +56,7 @@ bool j1Scene::Update(float dt)
 
 	if(App->input->GetKey(SDL_SCANCODE_S) == KEY_DOWN)
 		App->SaveGame("save_game.xml");
+
 
 	/*if(App->input->GetKey(SDL_SCANCODE_A) == KEY_REPEAT)
 		App->render->camera.x += 1;

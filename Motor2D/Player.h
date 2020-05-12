@@ -35,6 +35,7 @@ public:
 
 public:
 
+	bool godMode;
 	bool input = true;
 	SDL_Texture* player_text = nullptr;
 	Animation* current_animation = &idle;
@@ -43,7 +44,7 @@ public:
 	Animation backward;
 	fPoint position;
 	iPoint pos;
-	Collider* collider = nullptr;
+	Collider* colPlayer = nullptr;
 	int health = 1;
 	player_status status = PLAYER_IDLE;
 	SDL_Rect r;

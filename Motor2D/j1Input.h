@@ -70,7 +70,9 @@ public:
 	void GetMouseMotion(int& x, int& y);
 
 
-private:
+
+
+public:
 	bool		windowEvents[WE_COUNT];
 	j1KeyState*	keyboard;
 	j1KeyState	mouse_buttons[NUM_MOUSE_BUTTONS];

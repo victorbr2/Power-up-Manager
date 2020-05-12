@@ -7,6 +7,7 @@
 #include "j1Audio.h"
 #include "j1Render.h"
 #include "Player.h"
+#include "ModuleCollision.h"
 #include "j1Window.h"
 #include "j1Map.h"
 #include "j1Scene.h"
@@ -17,7 +18,7 @@ Player::Player()
 {
 	name.create("player");
 	position.x = 32;
-	position.y = 200;
+	position.y = 192;
 
 	// idle animation
 	idle.PushBack({ 2, 8, 21, 34 });
@@ -60,10 +61,14 @@ Player::~Player()
 bool Player::Start()
 {
 	LOG("Loading player");
-	
+	App->collision->Enable();
 	player_text = App->tex->Load("textures/Character.png");
-	health = 1;
+	colPlayer = App->collision->AddCollider({ 34, 192, 21, 34 }, COLLIDER_PLAYER);
+	health = 100;
+	
+	godMode = true;
 	return true;
+	
 }
 
 // Unload assets
@@ -77,13 +82,10 @@ bool Player::CleanUp()
 
 
 
-
-
 bool Player::Update(float dt) {
 
 	float speed = 0.15f;
-
-
+	
 	if (input) {
 
 		if (App->input->GetKey(SDL_SCANCODE_LEFT) == KEY_REPEAT){
@@ -105,6 +107,8 @@ bool Player::Update(float dt) {
 		current_animation = &idle;
 		position.y = 192;
 
+		colPlayer->type = COLLIDER_PLAYER;
+
 		
 		break;
 
@@ -112,16 +116,31 @@ bool Player::Update(float dt) {
 		if (position.x < 10) { position.x -= 0; }
 		else position.x -= speed;
 		current_animation = &backward;
+		colPlayer->type = COLLIDER_PLAYER;
 		break;
 
 	case PLAYER_FORWARD:
 		if (position.x > 405) { position.x -= 0; }
 		else position.x += speed;
+		colPlayer->type = COLLIDER_PLAYER;
 		current_animation = &forward;
 		break;
 
 	}
 
+	if (App->input->keyboard[SDL_SCANCODE_F5] == j1KeyState::KEY_DOWN)
+	{
+		if (godMode) {
+			colPlayer->to_delete = true;
+			colPlayer = App->collision->AddCollider({ 32, 192, 21, 34 }, COLLIDER_NONE);
+			godMode = false;
+		}
+		else {
+			colPlayer->to_delete = true;
+			colPlayer = App->collision->AddCollider({ 32, 192, 21, 34 }, COLLIDER_PLAYER);
+			godMode = true;
+		}
+	}
 
 	// Draw everything --------------------------------------
 	r = current_animation->GetCurrentFrame();

@@ -1,44 +1,35 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Dev Class8 Handout.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  j1Main.cpp
-  j1App.cpp
-  j1Audio.cpp
-  j1Input.cpp
-  j1Map.cpp
-  j1Scene.cpp
-  j1Render.cpp
-  j1Textures.cpp
-  j1Window.cpp
+  ModuleCollision.cpp
   Player.cpp
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,56): warning C4244: 'argumento': conversión de 'TYPE' a 'int'; posible pérdida de datos
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,56): warning C4244:         with
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,56): warning C4244:         [
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,56): warning C4244:             TYPE=float
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,56): warning C4244:         ]
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,41): warning C4244: 'argumento': conversión de 'TYPE' a 'int'; posible pérdida de datos
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,41): warning C4244:         with
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,41): warning C4244:         [
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,41): warning C4244:             TYPE=float
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(129,41): warning C4244:         ]
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(132,16): warning C4244: '=': conversión de 'TYPE' a 'int'; posible pérdida de datos
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(132,16): warning C4244:         with
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(132,16): warning C4244:         [
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(132,16): warning C4244:             TYPE=float
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(132,16): warning C4244:         ]
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(133,16): warning C4244: '=': conversión de 'TYPE' a 'int'; posible pérdida de datos
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(133,16): warning C4244:         with
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(133,16): warning C4244:         [
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(133,16): warning C4244:             TYPE=float
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(133,16): warning C4244:         ]
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(142,59): warning C4244: '=': conversión de 'int' a 'TYPE'; posible pérdida de datos
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(142,59): warning C4244:         with
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(142,59): warning C4244:         [
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(142,59): warning C4244:             TYPE=float
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(142,59): warning C4244:         ]
-  pugixml.cpp
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,56): warning C4244: 'argumento': conversión de 'TYPE' a 'int'; posible pérdida de datos
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,56): warning C4244:         with
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,56): warning C4244:         [
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,56): warning C4244:             TYPE=float
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,56): warning C4244:         ]
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,41): warning C4244: 'argumento': conversión de 'TYPE' a 'int'; posible pérdida de datos
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,41): warning C4244:         with
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,41): warning C4244:         [
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,41): warning C4244:             TYPE=float
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(149,41): warning C4244:         ]
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(152,16): warning C4244: '=': conversión de 'TYPE' a 'int'; posible pérdida de datos
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(152,16): warning C4244:         with
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(152,16): warning C4244:         [
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(152,16): warning C4244:             TYPE=float
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(152,16): warning C4244:         ]
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(153,16): warning C4244: '=': conversión de 'TYPE' a 'int'; posible pérdida de datos
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(153,16): warning C4244:         with
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(153,16): warning C4244:         [
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(153,16): warning C4244:             TYPE=float
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(153,16): warning C4244:         ]
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(162,59): warning C4244: '=': conversión de 'int' a 'TYPE'; posible pérdida de datos
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(162,59): warning C4244:         with
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(162,59): warning C4244:         [
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(162,59): warning C4244:             TYPE=float
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(162,59): warning C4244:         ]
   Generando código...
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(143,59): warning C4244: '=': conversión de 'int' a 'TYPE'; posible pérdida de datos
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(143,59): warning C4244:         with
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(143,59): warning C4244:         [
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(143,59): warning C4244:             TYPE=float
-C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(143,59): warning C4244:         ]
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(163,59): warning C4244: '=': conversión de 'int' a 'TYPE'; posible pérdida de datos
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(163,59): warning C4244:         with
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(163,59): warning C4244:         [
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(163,59): warning C4244:             TYPE=float
+C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Motor2D\Player.cpp(163,59): warning C4244:         ]
   Motor2D.vcxproj -> C:\Users\preda\OneDrive\Documentos\GitHub\Power-up-Manager\Debug\PowerUp_Manager.exe

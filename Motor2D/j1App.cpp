@@ -10,6 +10,7 @@
 #include "j1Textures.h"
 #include "Player.h"
 #include "j1Audio.h"
+#include "ModuleCollision.h"
 #include "j1Scene.h"
 #include "j1Map.h"
 #include "j1App.h"
@@ -28,7 +29,7 @@ j1App::j1App(int argc, char* args[]) : argc(argc), args(args)
 	scene = new j1Scene();
 	map = new j1Map();
 	play = new Player();
-
+	collision = new ModuleCollision();
 
 	// Ordered for awake / Start / Update
 	// Reverse order of CleanUp
@@ -39,6 +40,7 @@ j1App::j1App(int argc, char* args[]) : argc(argc), args(args)
 	AddModule(map);
 	AddModule(scene);
 	AddModule(play);
+	AddModule(collision);
 
 	// render last to swap buffer
 	AddModule(render);
