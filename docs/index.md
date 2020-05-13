@@ -12,15 +12,10 @@ First of all before implementing our power up manager, I'll do a brief introduct
 
 Any regular player, should have an idea of what are power up's, we can find a generic description about power up's and it's defined as an object that empowers the character giving him extra abilities for a period of time. This definition can be applied by most of the videogames, but we could maybe chage a bit this description, why? I'll explain it on the next point, types of power up's.
 
-##### Types of power up's
+#### Types of power up's
 
 Like the definition I've quoted before, regular videogame players should know the types of power up's that can be found in videogames, but I find it usefull to remind them, maybe could be some you didn't think of.
 
-
-
-#### Examples
-
-Now that we have explained how power up's are, I'll make a distinction of some videogames that use power up's in a right way and the ones that do it in a wrong way.
 We can distinguish the different power up's according to the ability they give.
 
 - Offensive/Defensive power up's
@@ -41,13 +36,48 @@ Provide the "money" resouce of the game.
 
 These are the basic power up's in any videogame, but power up's can be whatever the designer can think of.
 
+Now I'm retaking the coment I did on the previous point, why can we change the definition of power up? or I think it could be changed?, well as I said the Devs or Designers, are tho ones that make the desitions about what power up's they are going to deploy into their videogame, this makes that at any time a power up could change and not be an strictly object that appears on the videogame "world", a power up can be off the videogame and only the player knows about it's existence. League of Legends has this type of implementation, I've commented, their power up manager bases on summoners spells, there are no in game objects that give your character a boost, only the player knows how and when to use them.
+
 For more info check the links at the bottom of the page.
+
+#### Examples
+
+Now that we have explained how power up's are, I'll make a distinction of some videogames that use power up's in a right way and the ones that do it in a wrong way.
 
 ##### Bad
 
+Gradius III 
+
+In this game developers thaught that the increase or decrease was a great idea to implement in to a spaceship videogame, but there was a problem due to the over decreased movement speed that one power up gived the player. 
+
+Mega Man 3
+
+After the first boss, mega man gets an armor "upgrade" that don't increase his stats in a positive way, and made the gameplay harder than it should be.
+
 ##### Good
 
-Mario, we all know Mario
+Mario
+
+Mario, we all know Mario, it's amount of power up's and the implamentation are well timed and give the player a balanced boost that matches the situation.
+
+
+## Power up Manager implementation
+
+Now that we know how power up's are, we can start to work in our project.
+We have a basic canvas that shows us the in game player, the goal is to get a power up to the scene and after getting it see the changes it makes to the player, the type of power up we'll implement will be a speed boost.
+
+The project starts with both modules created, PowerUp_Manager.cpp/.h we will create the class PowerUp to set it as the main class and use it to create the sub clases of the diferent power up's we want to make.
+
+### TODO 1
+
+### TODO 2
+
+
+### TODO 3
+
+
+### TODO 4
+
 
 
 
