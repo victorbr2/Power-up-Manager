@@ -12,7 +12,7 @@ Link: https://github.com/victorbr2/Power-up-Manager
 
 ## Controls of the release
 
-- Player movement A go backwards, D go forward.
+- Player movement left arrow go backwards, right arrow go forward.
 
 ## Debug
 
