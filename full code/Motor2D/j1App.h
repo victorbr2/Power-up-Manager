@@ -16,6 +16,10 @@ class j1Map;
 class Player;
 class ModuleCollision;
 
+//Manager
+
+class P_Manager;
+
 class j1App
 {
 public:
@@ -88,6 +92,9 @@ public:
 	Player*				play;
 	ModuleCollision*	collision;
 
+	//Manager
+
+	P_Manager*	manager;
 
 private:
 

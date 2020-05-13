@@ -4,6 +4,7 @@
 #include "j1Input.h"
 #include "j1Textures.h"
 #include "Player.h"
+#include "PowerUp_Manager.h"
 #include "ModuleCollision.h"
 #include "j1Audio.h"
 #include "j1Render.h"
@@ -50,13 +51,6 @@ bool j1Scene::PreUpdate()
 // Called each loop iteration
 bool j1Scene::Update(float dt)
 {
-
-	if(App->input->GetKey(SDL_SCANCODE_L) == KEY_DOWN)
-		App->LoadGame("save_game.xml");
-
-	if(App->input->GetKey(SDL_SCANCODE_S) == KEY_DOWN)
-		App->SaveGame("save_game.xml");
-
 
 	/*if(App->input->GetKey(SDL_SCANCODE_A) == KEY_REPEAT)
 		App->render->camera.x += 1;

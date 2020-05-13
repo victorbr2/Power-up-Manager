@@ -1,16 +1,9 @@
-#include "p2Defs.h"
 #include "p2Log.h"
-#include "j1App.h"
-#include "j1Module.h"
 #include "j1Input.h"
 #include "j1Textures.h"
-#include "j1Audio.h"
 #include "j1Render.h"
 #include "Player.h"
 #include "ModuleCollision.h"
-#include "j1Window.h"
-#include "j1Map.h"
-#include "j1Scene.h"
 #include "SDL_image/include/SDL_image.h"
 
 
@@ -76,7 +69,12 @@ bool Player::Start()
 bool Player::CleanUp()
 {
 	LOG("Unloading player");
-	
+	if (!IsEnabled()) {
+		App->collision->Disable();
+		SDL_DestroyTexture(player_text);
+		//Disable
+		App->play->Disable();
+	}
 
 	return true;
 }
@@ -155,24 +153,4 @@ bool Player::Update(float dt) {
 
 	return UPDATE_CONTINUE;
 
-}
-
-bool Player::Load(pugi::xml_node& data)
-{
-	position.x = data.child("position").attribute("x").as_int();
-	position.y = data.child("position").attribute("y").as_int();
-
-	return true;
-}
-
-
-
-bool Player::Save(pugi::xml_node& data) const
-{
-	pugi::xml_node pos = data.append_child("position");
-
-	pos.append_attribute("x") = position.x;
-	pos.append_attribute("y") = position.y;
-
-	return true;
 }
