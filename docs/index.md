@@ -4,7 +4,7 @@
 
 ##### This website is going to try to make you understand how power up's work in videogames and how to implement them into your own projects or future videogames.
 
-## Introduction
+### Introduction
 
 First of all before implementing our power up manager, I'll do a brief introduction about power up's, what they are, types of them, distictions between them and good/bad examples that we can find in videogames.
 
@@ -80,8 +80,15 @@ The project starts with both modules created, PowerUp_Manager.cpp/.h we will cre
 
 
 
+### Sources
 
+[Wikipedia](https://en.wikipedia.org/wiki/Power-up)
 
+[Worst Power Up's](https://www.thegamer.com/power-ups-retro-games-worst/)
+
+[Top 10 power Up's](http://www.blockfort.com/other-lists/powerups/)
+
+[Power Up System](https://www.raywenderlich.com/191-how-to-make-a-power-up-system-in-unity)
 
 
 
