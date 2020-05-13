@@ -14,14 +14,21 @@ Any regular player, should have an idea of what are power up's, we can find a ge
 
 ##### Types of power up's
 
+Like the definition I've quoted before, regular videogame players should know the types of power up's that can be found in videogames, but I find it usefull to remind them, maybe could be some you didn't think of.
+
+
+
 #### Examples
 
 Now that we have explained how power up's are, I'll make a distinction of some videogames that use power up's in a right way and the ones that do it in a wrong way.
+We can distinguish the different power up's according to the abilitie they give.
+
 
 ##### Bad
 
 ##### Good
 
+Mario, we all know Mario
 
 
 
