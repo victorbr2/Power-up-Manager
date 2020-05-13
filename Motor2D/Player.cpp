@@ -64,9 +64,10 @@ bool Player::Start()
 	App->collision->Enable();
 	player_text = App->tex->Load("textures/Character.png");
 	colPlayer = App->collision->AddCollider({ 34, 192, 21, 34 }, COLLIDER_PLAYER);
+	godMode = true;
 	health = 100;
 	
-	godMode = true;
+	
 	return true;
 	
 }
@@ -132,12 +133,12 @@ bool Player::Update(float dt) {
 	{
 		if (godMode) {
 			colPlayer->to_delete = true;
-			colPlayer = App->collision->AddCollider({ 32, 192, 21, 34 }, COLLIDER_NONE);
+			colPlayer = App->collision->AddCollider({ 25, 100, 21, 34 }, COLLIDER_NONE);
 			godMode = false;
 		}
 		else {
 			colPlayer->to_delete = true;
-			colPlayer = App->collision->AddCollider({ 32, 192, 21, 34 }, COLLIDER_PLAYER);
+			colPlayer = App->collision->AddCollider({ 25, 100, 21, 34 }, COLLIDER_PLAYER);
 			godMode = true;
 		}
 	}
