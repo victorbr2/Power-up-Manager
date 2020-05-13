@@ -6,15 +6,15 @@
 
 ### Introduction
 
-First of all before implementing our power up manager, I'll do a brief introduction about power up's, what they are, types of them, distictions between them and good/bad examples that we can find in videogames.
+First of all before implementing our power up manager, I'll do a brief introduction about power up's, what they are, types of them, the distictions between them and good/bad examples that we can find in videogames.
 
 ### Power Up's
 
-Any regular player, should have an idea of what are power up's, we can find a generic description about power up's and it's defined as an object that empowers the character giving him extra abilities for a period of time. This definition can be applied by most of the videogames, but we could maybe chage a bit this description, why? I'll explain it on the next point, types of power up's.
+Any regular player, should have an idea of what are power up's, we can find a generic description about power up's and it's defined as an object that empowers the character giving him extra abilities for a period of time. This definition can be applied by most of the videogames, but we could maybe change a bit this description, why? I'll explain it on the next point, types of power up's.
 
 #### Types of power up's
 
-Like the definition I've quoted before, regular videogame players should know the types of power up's that can be found in videogames, but I find it usefull to remind them, maybe could be some you didn't think of.
+Like the definition I've quoted before, regular videogame players should know the types of power up's that can be found in videogames, but I find it useful to remind them, maybe could be some you didn't think of.
 
 We can distinguish the different power up's according to the ability they give.
 
@@ -28,7 +28,7 @@ They provide a boost of the movement of the character or access to new areas.
 
 - Health/Ammo supplies
 
-Give the character a health/ammo boost (Max health/ammo up) or supplying him with life/ammo, Ammo can be applied as any type of resouce, like health, could be mana.
+Give the character a health/ammo boost (Max health/ammo up) or supplying him with life/ammo, Ammo can be applied as any type of resource, like health, could be mana.
 
 - Coin power up's
 
@@ -36,7 +36,7 @@ Provide the "money" resouce of the game.
 
 These are the basic power up's in any videogame, but power up's can be whatever the designer can think of.
 
-Now I'm retaking the coment I did on the previous point, why can we change the definition of power up? or I think it could be changed?, well as I said the Devs or Designers, are tho ones that make the desitions about what power up's they are going to deploy into their videogame, this makes that at any time a power up could change and not be an strictly object that appears on the videogame "world", a power up can be off the videogame and only the player knows about it's existence. League of Legends has this type of implementation, I've commented, their power up manager bases on summoners spells, there are no in game objects that give your character a boost, only the player knows how and when to use them.
+Now I'm retaking the comment I did on the previous point, why can we change the definition of power up? or I think it could be changed?, well, as I said the Devs or Designers, are the ones that make the decisions about what power up's they are going to deploy into their videogame, this makes that at any time a power up could change and not be a strictly object that appears on the videogame "world", a power up can be off the videogame and only the player knows about its existence. League of Legends has this type of implementation, I've commented, their power up manager bases on summoners spells, there are no in game objects that give your character a boost, only the player knows how and when to use them.
 
 For more info check the links at the bottom of the page.
 
@@ -48,7 +48,7 @@ Now that we have explained how power up's are, I'll make a distinction of some v
 
 Gradius III 
 
-In this game developers thaught that the increase or decrease was a great idea to implement in to a spaceship videogame, but there was a problem due to the over decreased movement speed that one power up gived the player. 
+In this game developers thought that the increase or decrease was a great idea to implement into a spaceship videogame, but there was a problem due to the over decreased movement speed that one power up gave the player. 
 
 Mega Man 3
 
@@ -58,7 +58,7 @@ After the first boss, mega man gets an armor "upgrade" that don't increase his s
 
 Mario
 
-Mario, we all know Mario, it's amount of power up's and the implamentation are well timed and give the player a balanced boost that matches the situation.
+Mario, we all know Mario, it's amount of power up's and the implamentation of them is well timed and give the player a balanced boost that matches the situation.
 
 
 ## Power up Manager implementation
@@ -66,7 +66,7 @@ Mario, we all know Mario, it's amount of power up's and the implamentation are w
 Now that we know how power up's are, we can start to work in our project.
 We have a basic canvas that shows us the in game player, the goal is to get a power up to the scene and after getting it see the changes it makes to the player, the type of power up we'll implement will be a speed boost.
 
-The project starts with both modules created, PowerUp_Manager.cpp/.h we will create the class PowerUp to set it as the main class and use it to create the sub clases of the diferent power up's we want to make.
+The project starts with both modules created, PowerUp_Manager.cpp/.h we will create the class PowerUp to set it as the main class and use it to create the sub class of the different power up's we want to make.
 
 ### TODO 1
 
