@@ -46,7 +46,7 @@ Give the character a health/ammo boost (Max health/ammo up) or supplying him wit
 
 _`COD Zombies Ammo Power Up`_
 
-![Health](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/life.png)
+![Health](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/life1.png)
 
 _`Health Boost`_
 
