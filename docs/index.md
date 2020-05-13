@@ -108,15 +108,15 @@ We have a basic canvas that shows us the in game player, the goal is to get a po
 
 The project starts with both modules created, PowerUp_Manager.cpp/.h we will create the class PowerUp to set it as the main class and use it to create the sub class of the different power up's we want to make.
 
-### TODO 1
+#### TODO 1
 
-### TODO 2
-
-
-### TODO 3
+#### TODO 2
 
 
-### TODO 4
+#### TODO 3
+
+
+#### TODO 4
 
 
 
