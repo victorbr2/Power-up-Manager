@@ -21,8 +21,27 @@ Like the definition I've quoted before, regular videogame players should know th
 #### Examples
 
 Now that we have explained how power up's are, I'll make a distinction of some videogames that use power up's in a right way and the ones that do it in a wrong way.
-We can distinguish the different power up's according to the abilitie they give.
+We can distinguish the different power up's according to the ability they give.
 
+- Offensive/Defensive power up's
+
+They provide a boost of attack or defense to the character.
+
+- Evasive/Access power up's
+
+They provide a boost of the movement of the character or access to new areas.
+
+- Health/Ammo supplies
+
+Give the character a health/ammo boost (Max health/ammo up) or supplying him with life/ammo, Ammo can be applied as any type of resouce, like health, could be mana.
+
+- Coin power up's
+
+Provide the "money" resouce of the game.
+
+These are the basic power up's in any videogame, but power up's can be whatever the designer can think of.
+
+For more info check the links at the bottom of the page.
 
 ##### Bad
 
