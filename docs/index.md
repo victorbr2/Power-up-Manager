@@ -88,7 +88,7 @@ The project starts with both modules created, PowerUp_Manager.cpp/.h we will cre
 
 [Top 10 power Up's](http://www.blockfort.com/other-lists/powerups/)
 
-[Power Up System](https://www.raywenderlich.com/191-how-to-make-a-power-up-system-in-unity)
+[Power Up System in Unity](https://www.raywenderlich.com/191-how-to-make-a-power-up-system-in-unity)
 
 
 
