@@ -8,7 +8,7 @@
 
 First of all before implementing our power up manager, I'll do a brief introduction about power up's, what they are, types of them, the distictions between them and good/bad examples that we can find in videogames.
 
-![Mushroom](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/seta.jpg)
+![Mushroom](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/seta.jpg)
 
 _`Mario Mushroom`_
 
@@ -26,7 +26,7 @@ We can distinguish the different power up's according to the ability they give.
 
 They provide a boost of attack or defense to the character.
 
-![Shield](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/BasicShield.png)
+![Shield](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/shield.png)
 
 _`Shield Power Up`_
 
@@ -34,7 +34,7 @@ _`Shield Power Up`_
 
 They provide a boost of the movement of the character or access to new areas.
 
-![Speed](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/speed.png)
+![Speed](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/speed.png)
 
 _`Speed Boost`_
 
@@ -42,11 +42,11 @@ _`Speed Boost`_
 
 Give the character a health/ammo boost (Max health/ammo up) or supplying him with life/ammo, Ammo can be applied as any type of resource, like health, could be mana.
 
-![COD Zombies Ammo Power Up](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/Ammo.jpg)
+![COD Zombies Ammo Power Up](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/ammunition.jpg)
 
 _`COD Zombies Ammo Power Up`_
 
-![Health](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/life1.png)
+![Health](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/life1.png)
 
 _`Health Boost`_
 
@@ -54,7 +54,7 @@ _`Health Boost`_
 
 Provide the "money" resouce of the game.
 
-![Coin](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/Coin.jpg)
+![Coin](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/coins.jpg)
 
 _`Mario Coins`_
 
@@ -68,7 +68,7 @@ For more info check the links at the bottom of the page.
 
 Now that we have explained how power up's are, I'll make a distinction of some videogames that use power up's in a right way and the ones that do it in a wrong way.
 
-![Boosts](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/powersb.jpg)
+![Boosts](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/powersb.jpg)
 
 _`Boosts`_
 
@@ -78,7 +78,7 @@ Gradius III
 
 In this game developers thought that the increase or decrease was a great idea to implement into a spaceship videogame, but there was a problem due to the over decreased movement speed that one power up gave the player. 
 
-![Gradius III](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/Gradius_3.png)
+![Gradius III](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/gradius3.png)
 
 _`Gradius III`_
 
@@ -86,7 +86,7 @@ Mega Man 3
 
 After the first boss, mega man gets an armor "upgrade" that don't increase his stats in a positive way, and made the gameplay harder than it should be.
 
-![Mega Man](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/mm3%20tops%20spin%20adquired.jpg)
+![Mega Man](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/mgm.jpg)
 
 _`Mega Man`_
 
@@ -96,7 +96,7 @@ Mario
 
 Mario, we all know Mario, it's amount of power up's and the implamentation of them is well timed and give the player a balanced boost that matches the situation.
 
-![Mario](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/web%20picts/Mario.jpg)
+![Mario](https://github.com/victorbr2/Power-up-Manager/blob/master/docs/assets/mariob.jpg)
 
 _`Mario`_
 
