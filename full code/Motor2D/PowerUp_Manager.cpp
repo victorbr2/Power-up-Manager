@@ -55,6 +55,8 @@ bool P_Manager::Update(float dt)
 		colPowerUp->type = COLLIDER_PWUP;
 
 		break;
+
+
 	}
 
 	r = current_animation->GetCurrentFrame();

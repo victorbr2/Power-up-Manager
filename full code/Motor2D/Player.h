@@ -32,7 +32,7 @@ public:
 
 
 public:
-
+	float speed = 0.15f;
 	bool godMode;
 	bool input = true;
 	SDL_Texture* player_text = nullptr;

@@ -32,22 +32,11 @@ public:
 	fPoint position;
 	Collider* colPowerUp = nullptr;
 	int health = 1;
+	Uint32 Power_timer = 0;
 	Animation* current_animation = &idle;
 	Animation idle;
 	powerUp_status status = POWERUP_IDLE;
 	SDL_Rect r;
 };
-/*
-class PowerUp : public P_Manager
-{
-	PowerUp();
-	~PowerUp();
 
-
-
-
-public:
-
-};
-*/
 #endif //_POWERUP_MANAGER_

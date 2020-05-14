@@ -56,9 +56,9 @@ bool Player::Start()
 	LOG("Loading player");
 	App->collision->Enable();
 	player_text = App->tex->Load("textures/Character.png");
-	colPlayer = App->collision->AddCollider({ 34, 192, 21, 34 }, COLLIDER_PLAYER);
+	colPlayer = App->collision->AddCollider({ 32, 192, 21, 34 }, COLLIDER_PLAYER);
 	godMode = true;
-	health = 100;
+	health = 1;
 	
 	
 	return true;
@@ -83,7 +83,7 @@ bool Player::CleanUp()
 
 bool Player::Update(float dt) {
 
-	float speed = 0.15f;
+	
 	
 	if (input) {
 
